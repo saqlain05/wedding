@@ -45,7 +45,7 @@ const Profile = () => {
                         <div className="firstdet">
                         <h2>Mallu Farms</h2>
                         <p> <span>Delhi NCR</span> (View on Map) </p> 
-                        <p>
+                        <p class="para"> 
                         Mallu Farm, Ansal Villas, New Delhi, Delhi, India
                         </p> 
                         <h5>Contact</h5>

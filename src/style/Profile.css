@@ -5,10 +5,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+    /* flex-wrap: wrap; */
 }
 .profileFirst{
     /* border: 1px solid black; */
-    height: 200vh;
+    min-height: 200vh;
     width: 65%;
     
 }
@@ -107,7 +108,8 @@
     position: relative;
     left: 60px;
     bottom: 80px;
-    background-color: #fff;
+    background-color: rgba(256, 256, 256, .9);
+    /* background-color: #fff; */
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -219,6 +221,7 @@
 .prices>h3{
     color: #e72e77;
     font-size: 1.4rem;
+    text-decoration: line-through;
 }
 
 .profileThird{
@@ -258,3 +261,79 @@ form > button:hover{
     border-radius: 20px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 600px) {
+    .mainDiv{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+     
+    }
+    .profileFirst{
+        /* border: 1px solid black; */
+        min-height: 200vh;
+        width: 100%;
+        
+        
+    }
+    .bigImage{
+        margin: auto;
+        width: 99%;
+        height: 15rem;
+        /* border: 2px solid blue; */
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .venueImageTop{
+        top: -245px;
+    
+    }
+
+    
+.det{
+    /* border: 10px solid palevioletred; */
+    width: 85%;
+    left: 10px;
+    bottom: 60px;    
+}
+.seconddet >h2{
+    width: 5rem;
+    gap: .1rem;
+    padding: .11rem;
+    border-radius: 5px;
+    margin: .1rem 0;
+    /* font-size: 1rem; */
+
+}
+    .seconddet{
+        height: 5rem;
+    }
+    .para{
+        width: 130%;
+    }
+
+    .portfoliImg>img{
+        width: 8rem;
+        height: 6rem;
+    }
+    .portfolioss>h3{
+        font-size: 1rem;
+        width: 30%;
+    }
+   
+    .profileSec{
+        
+        width: 95%;
+        margin: auto;        
+    }
+    .profileSecFIrst>p{
+        /* border: 1px solid red; */
+        width: 95%;
+        text-align: center;
+    }
+
+    form>input{
+        width: 95%;
+    }
+  }
